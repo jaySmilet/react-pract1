@@ -7,6 +7,9 @@ import './style.css';
 import UseRefTrackingStateChanges from './useRef-Hook/UseRefTrackingStateChanges';
 import DocTitleTwo from './custom-hook/Title/DocTitleTwo';
 import DocTitleOne from './custom-hook/Title/DocTitleOne';
+import CounterOne from './custom-hook/Counter/CounterOne';
+import CounterTwo from './custom-hook/Counter/CounterTwo';
+import UserForm from './custom-hook/UserForm/UserForm';
 
 export default function App() {
   return (
@@ -16,8 +19,11 @@ export default function App() {
       {/* <UseRefTrack /> */}
       {/* <UseRefAccessDomElement /> */}
       {/* <UseRefTrackingStateChanges /> */}
-      <DocTitleOne />
-      <DocTitleTwo />
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+      {/* <CounterOne />
+      <CounterTwo /> */}
+      <UserForm />
     </div>
   );
   React.PureComponent;
